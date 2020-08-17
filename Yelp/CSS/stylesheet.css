@@ -1,0 +1,295 @@
+*{
+box-sizing:border-box;
+}
+header{
+  width: 100%;
+  height: 500px;
+  float: left;
+}
+header{
+  background-image: url(table.jpg);
+  background-size: cover;
+}
+nav{
+  width: 100%;
+  height: 100px;
+}
+nav a{
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  margin-left: 2%;
+}
+.check{
+  width: 70%;
+  height: 100px;
+  float: left;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+.stack i{
+  color:white;
+  float: right;
+  margin-right: 2%;
+  font-size: 20px;
+  display: none;
+}
+.signup{
+  border:1px solid white;
+  padding: 1%;
+  margin-left: 2%;
+}
+.center {
+  width: 100%;
+  height: 200px;
+}
+.center img{
+  max-width: 100%;
+  height: 100px;
+  margin-left: 40%;
+}
+.center input{
+  width: 30%;
+  height: 10px;
+  padding: 15px;
+  text-align: center;
+}
+.center form{
+  margin-left: 25%;
+}
+.center a{
+  color: white;
+  text-decoration: none;
+  margin-left: 2%;
+}
+.center i{
+  padding-left: 10%;
+  color: white;
+}
+button{
+  width: 12%;
+  height: 30px;
+  margin-left: 45%;
+  margin-top: 2%;
+  font-size: 15px;
+  display: none;
+
+}
+.tatte{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  margin-top: 5%;
+}
+.citylist{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  float: left;
+}
+.citylist h3{
+  font-weight: bold;
+  color: rgb(209,38,43);
+}
+.citylist li{
+  display: inline;
+}
+.citylist a{
+  text-decoration: none;
+  color: black;
+  padding: 1%;
+  font-size: 13px;
+}
+.hotrestaurants{
+  width: 100%;
+  height:400px;
+  float:left;
+}
+.hotrestaurants h5{
+  width: 100%;
+  height:40px;
+  color: rgb(209,38,43);
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+.KorTor, .Flatbread, .Citrus{
+  width: 30%;
+  height: 250px;
+  float: left;
+  margin-left: 3%;
+  display: block;
+}
+.citrustext, .flattext, .kortext{
+  display: block;
+  width:50%;
+  margin-top:2%;
+  margin-left: 33%;
+}
+.KorTor img{
+  max-width: 100%;
+  height: 150px;
+  margin-left: 33%;
+}
+.Flatbread img{
+  max-width: 100%;
+  display: inline-block;
+  height: 150px;
+  margin-left: 25%;
+}
+.Citrus img{
+  max-width: 100%;
+  display: inline-block;
+  height: 150px;
+  margin-left: 33%;
+  margin-top: 2%;
+}
+footer{
+  width: 100%;
+  float: left;
+  height: 400px;
+}
+footer h4{
+  text-align: center;
+  color: rgb(209, 40, 74);
+}
+.bottom{
+  width: 100%;
+  height: 100px;
+}
+.bottom img{
+  max-width: 100%;
+  height: 90px;
+}
+.bottom a{
+  text-decoration: none;
+  text-align: center;
+  margin-left: 10%;
+  padding-bottom: 5%;
+  color: black;
+  height: 100px;
+}
+footer >.bottom section{
+  border: 1px solid black;
+  width: 20%;
+  height: 150px;
+  float: left;
+  margin-left: 4%;
+  display:block;
+}
+footer img{
+  display: block;
+  padding-left:20%;
+  padding-top: 3%;
+}
+
+@media only screen and (max-width:600px){
+  .check, .citylist, footer{
+    display: none;
+  }
+  .KorTor, .Flatbread, .Citrus{
+    width: 100%;
+  }
+  .center input{
+    width: 80%;
+    height: 10px;
+    padding: 15px;
+    margin-top: 2%;
+    text-align: center;
+  }
+  .Flatbred img{
+    height: 20px;
+    margin-left: 20%;
+  }
+  .center ul{
+    display: none;
+  }
+  .tatte{
+    width: 100%;
+    margin-top: 30%;
+    color: white;
+  }
+  .stack i{
+    display: block;
+  }
+  .center i{
+    padding-left: 46%;
+  }
+  .center button{
+    width:40%;
+    margin-left: 35%;
+  }
+  button{
+    display: block;
+  }
+}
+@media (min-width: 600px) and (max-width:800px){
+    .check, .citylist, footer{
+      display: none;
+    }
+    .KorTor, .Flatbread, .Citrus{
+      float: left;
+      width: 100%;
+    }
+    .KorTor img, .Citrus img{
+      float: left;
+      display: block;
+      margin-left: 0;
+      padding-left: 5%;
+      padding-top: 2%;
+    }
+    .Flatbread img{
+      float: left;
+      display: block;
+      margin-left: 0;
+      padding-top: 2%;
+      padding-left: 1%;
+    }
+    .kortext, .flattext, .citrustext{
+      float: left;
+      display:inline-block;
+      margin-top: -10%;
+    }
+    .center input{
+      width: 80%;
+      height: 10px;
+      padding: 15px;
+      margin-top: 2%;
+      text-align: center;
+    }
+    button{
+      display: block;
+    }
+    .tatte{
+      width: 100%;
+      margin-top: 10%;
+      color: white;
+    }
+    .truck{
+      display: none;
+    }
+  }
+    @media (min-width: 800px) and (max-width:1080px){
+      footer {
+        display: none;
+      }
+      .KorTor img, .Citrus img{
+        float: left;
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        padding-left: 1%;
+        padding-top: 2%;
+      }
+      .Flatbread img{
+        float: left;
+        display: block;
+        margin-left: 0;
+        padding-top: 2%;
+        padding-left: 1%;
+      }
+      .magni{
+        display: block;
+      }
+    }
